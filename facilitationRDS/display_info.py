@@ -4,12 +4,12 @@
 import pyglet.canvas
 
 # Input display information
-inch = 12
+inch = 23
 aspect_width = 16
-aspect_height = 10
+aspect_height = 9
 
 # Input a variety
-variation = [10, 20, 30, 40]
+variation = [5, 15, 25, 35, 60]
 
 
 # Get display information

@@ -46,13 +46,24 @@ fixr = pyglet.sprite.Sprite(pedestal, x=cntx+iso*deg1-pedestal.width/2.0, y=cnty
 fixl = pyglet.sprite.Sprite(pedestal, x=cntx-iso*deg1-pedestal.width/2.0, y=cnty-pedestal.height/2.0)
 
 file_names = copy.copy(display_info.variation)*rept*2
-#crs_uncrs = [int(1), int(-1)]*int(len(file_names)/2)
+file_names.extend([200, 200])
 r = random.randint(0, math.factorial(len(file_names)))
 random.seed(r)
 sequence = random.sample(file_names, len(file_names))
-#sequence2 = random.sample(crs_uncrs, len(file_names))
+
+
+num = list(np.repeat(range(1, rept+1), len(display_info.variation)))*2
+num.extend([1, 1])
+random.seed(r)
+sequence2 = random.sample(num, len(file_names))
 print(sequence)
-#print(sequence2)
+print(sequence2)
+
+complementary = list(np.repeat([0, 1], len(display_info.variation)*rept))
+complementary.extend([0, 1])
+random.seed(r)
+sequence3 = random.sample(complementary, len(file_names))
+print(sequence3)
 
 # ----------- Core program following ----------------------------
 
@@ -149,23 +160,26 @@ def get_results(dt):
     print('cdt: ' + str(c))
     print('mdt: ' + str(m))
     print('dtstd: ' + str(d))
-    print('condition: ' + str(sequence[n-1]))
+    print('condition: ' + str(sequence[n-1]) + ', ' + str(sequence3[n-1]))
     print('--------------------------------------------------')
     # Check the experiment continue or break
     if n != len(file_names):
         pyglet.clock.schedule_once(exit_routine, 29.0)
     else:
+        p_sound.play()
         pyglet.app.exit()
 
 
 def set_polygon():
     global L, R, sequence, n
     # Set up polygon for stimulus
-    R = pyglet.resource.image('stereograms/ds' + str(sequence[n]) + '.png')
+    R = pyglet.resource.image('stereograms/' + str(sequence2[n]) +
+                              'rds' + str(sequence[n]) + 'R' + str(sequence3[n]) + '.png')
     R = pyglet.sprite.Sprite(R)
     R.x = cntx + deg1 * iso - R.width / 2.0
     R.y = cnty - R.height / 2.0
-    L = pyglet.resource.image('stereograms/ls.png')
+    L = pyglet.resource.image('stereograms/' + str(sequence2[n]) +
+                              'rds' + str(sequence[n]) + 'L' + str(sequence3[n]) + '.png')
     L = pyglet.sprite.Sprite(L)
     L.x = cntx - deg1 * iso - L.width / 2.0
     L.y = cnty - L.height / 2.0
@@ -206,7 +220,9 @@ daten = datetime.datetime.now()
 
 # Write results onto csv
 results = pd.DataFrame({'trial': list(range(1, len(file_names)+1)),  # Store variance_A conditions
-                        'width': sequence,
+                        'luminance': sequence,
+                        'repetition': sequence2,
+                        'complementary': sequence3,
                         'transient_counts': tcs,  # Store transient_counts
                         'cdt': cdt,  # Store cdt(target values) and input number of trials
                         'mdt': mdt,

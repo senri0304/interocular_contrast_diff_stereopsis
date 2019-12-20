@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7919a076-953f-4f9a-b900-d60dfd430cea" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7919a076-953f-4f9a-b900-d60dfd430cea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interocular_contrast_diff_stereopsis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interocular_contrast_diff_stereopsis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facilitationRDS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/facilitationRDS/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facilitationRDS/display_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/facilitationRDS/display_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facilitationRDS/facilitationRDS.py" beforeDir="false" afterPath="$PROJECT_DIR$/facilitationRDS/facilitationRDS.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,35 +18,115 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="43" />
-    <option name="width" value="1260" />
-    <option name="height" value="737" />
-  </component>
   <component name="ProjectId" id="1UZ8nUrSQhSWXK69rzmoXnQqRw9" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/facilitationRDS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.facilitationRDS">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interocular_contrast_diff_stereopsis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/facilitationRDS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facilitationRDS/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="disappearance_rds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interocular_contrast_diff_stereopsis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exp1_contrastRDS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exp1_contrastRDS/disappearance_rds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="facilitationRDS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interocular_contrast_diff_stereopsis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/facilitationRDS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facilitationRDS/facilitationRDS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.facilitationRDS" />
+      <item itemvalue="Python.disappearance_rds" />
+    </list>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Python.facilitationRDS" />
+        <item itemvalue="Python.disappearance_rds" />
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -56,28 +143,70 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="10" y="43" width="1260" height="737" extended-state="0" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32868218" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state x="314" y="181" key="#Scopes" timestamp="1576148369912">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="314" y="181" key="#Scopes/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576148369912" />
+    <state x="655" y="137" key="#__init__" timestamp="1575554091046">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="655" y="137" key="#__init__/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1575554091046" />
+    <state x="410" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575554497570">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="410" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1575554497570" />
+    <state x="423" y="148" key="#disappearance_rds" timestamp="1576146609315">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="423" y="148" key="#disappearance_rds/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576146609315" />
+    <state x="655" y="149" key="#facilitationRDS" timestamp="1575554733439">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="655" y="149" key="#facilitationRDS/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1575554733439" />
+    <state x="733" y="278" key="FileChooserDialogImpl" timestamp="1575554338553">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="733" y="278" key="FileChooserDialogImpl/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1575554338553" />
+    <state width="1379" height="240" key="GridCell.Tab.0.bottom" timestamp="1576820065516">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1379" height="240" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576820065516" />
+    <state width="1379" height="240" key="GridCell.Tab.0.center" timestamp="1576820065515">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1379" height="240" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576820065515" />
+    <state width="1379" height="240" key="GridCell.Tab.0.left" timestamp="1576820065514">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1379" height="240" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576820065514" />
+    <state width="1379" height="240" key="GridCell.Tab.0.right" timestamp="1576820065515">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1379" height="240" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576820065515" />
+    <state width="689" height="297" key="GridCell.Tab.1.bottom" timestamp="1576655436089">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="689" height="297" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576655436089" />
+    <state width="689" height="297" key="GridCell.Tab.1.center" timestamp="1576655436088">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="689" height="297" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576655436088" />
+    <state width="689" height="297" key="GridCell.Tab.1.left" timestamp="1576655436088">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="689" height="297" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576655436088" />
+    <state width="689" height="297" key="GridCell.Tab.1.right" timestamp="1576655436089">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="689" height="297" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576655436089" />
+    <state x="455" y="155" key="SettingsEditor" timestamp="1576148410422">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="455" y="155" key="SettingsEditor/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576148410422" />
+    <state x="498" y="225" width="670" height="676" key="search.everywhere.popup" timestamp="1576682975097">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="498" y="225" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1576682975097" />
   </component>
 </project>
